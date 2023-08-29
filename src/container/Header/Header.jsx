@@ -20,12 +20,12 @@ const Header = () => (
         everyday clothes into works of art through our impeccable cleaning and
         alteration services.
       </p>
-      {/* <button
+      <button
         type='button'
         className='custom__button'
       >
-        Explore Menu
-      </button> */}
+        Visit Us
+      </button>
     </div>
 
     <div className='app__wrapper_img'>

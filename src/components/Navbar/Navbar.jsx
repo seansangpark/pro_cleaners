@@ -62,7 +62,10 @@ const Navbar = () => {
               className='overlay__close'
               onClick={() => setToggleMenu(false)}
             />
-            <ul className='app__navbar-smallscreen_links'>
+            <ul
+              className='app__navbar-smallscreen_links'
+              onClick={() => setToggleMenu(false)}
+            >
               <li className='p__opensans'>
                 <a href='#home'>Home</a>
               </li>

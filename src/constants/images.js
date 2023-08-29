@@ -1,11 +1,11 @@
 import bg from '../assets/bg.png';
+import bg2 from '../assets/bg2.png';
 import chef from '../assets/chef.png';
 import G from '../assets/G.png';
 import gallery01 from '../assets/gallery01.png';
 import gallery02 from '../assets/gallery02.png';
 import gallery03 from '../assets/gallery03.png';
 import gallery04 from '../assets/gallery04.png';
-import knife from '../assets/knife.png';
 import logo from '../assets/logo.png';
 import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
@@ -20,16 +20,17 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import pro_cleaners from '../assets/pro_cleaners.png';
+import clothes from '../assets/clothes.png';
 
 export default {
   bg,
+  bg2,
   chef,
   G,
   gallery01,
   gallery02,
   gallery03,
   gallery04,
-  knife,
   logo,
   menu,
   overlaybg,
@@ -44,4 +45,5 @@ export default {
   sign,
   quote,
   pro_cleaners,
+  clothes,
 };

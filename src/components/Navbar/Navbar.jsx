@@ -33,7 +33,7 @@ const Navbar = () => {
           <a href='#contact'>Contact</a>
         </li>
       </ul>
-      <div className='app__navbar-login'>
+      {/* <div className='app__navbar-login'>
         <a
           href='#login'
           className='p__opensans'
@@ -47,7 +47,7 @@ const Navbar = () => {
         >
           Schedule a Drop Off
         </a>
-      </div>
+      </div> */}
       <div className='app__navbar-smallscreen'>
         <GiHamburgerMenu
           color='#fff'

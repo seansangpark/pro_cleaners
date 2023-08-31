@@ -10,8 +10,8 @@ const SpecialMenu = () => (
     id='menu'
   >
     <div className='app__specialMenu-title'>
-      <SubHeading title='Menu that fits you palatte' />
-      <h1 className='headtext__cormorant'>Today's Special</h1>
+      <SubHeading title='Love your clothes longer with Pro Cleaners Expert Care' />
+      <h1 className='headtext__cormorant'>Online Special Deal</h1>
     </div>
 
     <div className='app__specialMenu-menu'>
@@ -31,7 +31,23 @@ const SpecialMenu = () => (
 
       <div className='app__specialMenu-menu_img'>
         <img
-          src={images.menu}
+          src={images.google_map1}
+          alt='menu img'
+        />
+        <img
+          src={images.pro2}
+          alt='menu img'
+        />
+        <img
+          src={images.inside}
+          alt='menu img'
+        />
+        <img
+          src={images.pro4}
+          alt='menu img'
+        />
+        <img
+          src={images.pro3}
           alt='menu img'
         />
       </div>

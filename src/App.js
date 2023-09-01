@@ -7,7 +7,6 @@ import {
   Footer,
   Gallery,
   Header,
-  Intro,
   Laurels,
   SpecialMenu,
 } from './container';
@@ -21,7 +20,6 @@ const App = () => (
     <AboutUs />
     <SpecialMenu />
     <Owner />
-    <Intro />
     <Laurels />
     <Gallery />
     <FindUs />

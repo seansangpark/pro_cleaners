@@ -18,17 +18,18 @@ import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
-import pro_cleaners from '../assets/pro_cleaners.png';
 import clothes from '../assets/clothes.png';
 import inside from '../assets/inside.png';
 import google_map1 from '../assets/google_map1.png';
 import google_map2 from '../assets/google_map2.png';
+import pro from '../assets/pro.png';
 import pro1 from '../assets/pro1.png';
 import pro2 from '../assets/pro2.png';
 import pro3 from '../assets/pro3.png';
 import pro4 from '../assets/pro4.png';
 import pro5 from '../assets/pro5.png';
 import pro6 from '../assets/pro6.png';
+import owner from '../assets/owner.png';
 
 export default {
   bg,
@@ -51,15 +52,16 @@ export default {
   award05,
   sign,
   quote,
-  pro_cleaners,
   clothes,
   inside,
   google_map1,
   google_map2,
+  pro,
   pro1,
   pro2,
   pro3,
   pro4,
   pro5,
   pro6,
+  owner,
 };

@@ -7,7 +7,7 @@ import './SpecialMenu.css';
 const SpecialMenu = () => (
   <div
     className='app__specialMenu flex__center section__padding'
-    id='menu'
+    id='services'
   >
     <div className='app__specialMenu-title'>
       <SubHeading title='Love your clothes longer with Pro Cleaners Expert Care' />

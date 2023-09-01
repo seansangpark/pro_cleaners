@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
         <img
-          src={images.pro_cleaners}
+          src={images.pro}
           alt='app logo'
         />
       </div>

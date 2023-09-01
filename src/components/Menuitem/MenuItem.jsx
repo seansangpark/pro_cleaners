@@ -8,7 +8,7 @@ const MenuItem = ({ title, price, tags }) => (
       <div className='app__menuitem-name'>
         <p
           className='p__cormorant'
-          style={{ color: '#DCCA87' }}
+          style={{ color: '#2f6550' }}
         >
           {title}
         </p>

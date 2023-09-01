@@ -5,7 +5,7 @@ const SubHeading = ({ title }) => (
     <p className='p__cormorant'>{title}</p>
     <div
       class='white-line'
-      style={{ border: 'none', borderTop: '1px solid white', margin: '10px 0' }}
+      style={{ border: 'none', borderTop: '1px solid black', margin: '10px 0' }}
     ></div>
   </div>
 );

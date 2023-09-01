@@ -50,7 +50,7 @@ const Navbar = () => {
       </div> */}
       <div className='app__navbar-smallscreen'>
         <GiHamburgerMenu
-          color='#fff'
+          color='#2f6550'
           fontSize={27}
           onClick={() => setToggleMenu(true)}
         />

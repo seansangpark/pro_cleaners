@@ -8,6 +8,7 @@ import {
   Header,
   SpecialMenu,
   Reviews,
+  SunnyCleaners,
 } from './container';
 import { Navbar } from './components';
 import './App.css';
@@ -21,6 +22,7 @@ const App = () => (
     <Owner />
     <Reviews />
     <FindUs />
+    <SunnyCleaners />
     <Footer />
   </div>
 );

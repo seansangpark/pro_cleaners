@@ -1,17 +1,17 @@
 import React from 'react';
-import { images } from '../../constants';
-import { PhoneNumberLink } from '../../components';
-import './Footer.css';
 
-const Footer = () => {
-  const phoneNumber = '+1-704-941-1977';
+import { SubHeading, PhoneNumberLink, Button } from '../../components';
+import { images } from '../../constants';
+
+const SunnyCleaners = () => {
+  const phoneNumber = '+1-704-551-6222';
 
   const handleAddressClick = (e) => {
     // Prevent the default behavior of the button click
     e.preventDefault();
 
     // URL for Sunny Dry cleaners & Alterations on Google Maps
-    const mapURL = 'https://goo.gl/maps/wJinyoHupmJLHfaz8';
+    const mapURL = 'https://goo.gl/maps/nfSTFvjUqRQwubjq5';
 
     // Check if the user is on an iPhone
     const isiPhone = /iPhone|iPod/.test(navigator.userAgent);
@@ -37,51 +37,58 @@ const Footer = () => {
 
   return (
     <div
-      className='app__bg app__footer section__padding'
-      id='login'
+      className='app__wrapper section__padding'
+      id='contact'
     >
-      <div className='app__footer-links'>
-        <div className='app__footer-links_contact'>
-          <h1 className='app__footer-headtext'>Contact Us</h1>
+      <div className='app__wrapper_img'>
+        <img
+          src={images.sunny}
+          alt='sunny_cleaners'
+        />
+      </div>
+
+      <div className='app__wrapper_info'>
+        <SubHeading title='Come visit our sister store' />
+        <h1
+          className='headtext__cormorant'
+          style={{ marginBottom: '3rem' }}
+        >
+          Sunny Dry Cleaners
+        </h1>
+        <div className='app__wrapper-content'>
           <p
             className='p__opensans'
             style={{ cursor: 'pointer' }}
             onClick={handleAddressClick}
           >
-            12744 Lancaster Hwy C, Pineville, NC 28134
+            7631 Sharon Lakes Rd Ste. O, Charlotte, North Carolina 28210
           </p>
           <br />
           <p className='p__opensans'>
             <PhoneNumberLink phoneNumber={phoneNumber} />
           </p>
-        </div>
-
-        <div className='app__footer-links_logo'>
-          <img
-            src={images.pro}
-            alt='footer_logo'
-          />
-          <p className='p__opensans'>
-            Let us take care of them so you can shine, wrinkle-free.
+          <p
+            className='p__cormorant'
+            style={{ color: '#DCCA87', margin: '2rem 0' }}
+          >
+            Opening Hours
           </p>
+          <p className='p__opensans'>Mon - Fri: 6:30 aM - 6:00 pM</p>
+          <p className='p__opensans'>Saturday: 9:00 aM - 3:00 pM</p>
+          <p className='p__opensans'>Sunday: Closed</p>
         </div>
-
-        <div className='app__footer-links_work'>
-          <h1 className='app__footer-headtext'>Working Hours</h1>
-          <p className='p__opensans'>Monday-Friday:</p>
-          <p className='p__opensans'>8:00 aM - 6:30 pM</p>
-          <p className='p__opensans'>Saturday:</p>
-          <p className='p__opensans'>9:00 aM- 3:00 pM</p>
-        </div>
-      </div>
-
-      <div className='footer__copyright'>
-        <p className='p__opensans'>
-          Copyright © 2023 Spark Design. All Rights Reserved.
-        </p>
+        <button
+          href='/'
+          type='button'
+          onClick={handleAddressClick}
+          className='custom__button'
+          style={{ marginTop: '2rem' }}
+        >
+          Visit Us
+        </button>
       </div>
     </div>
   );
 };
 
-export default Footer;
+export default SunnyCleaners;

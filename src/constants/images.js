@@ -30,6 +30,7 @@ import pro4 from '../assets/pro4.png';
 import pro5 from '../assets/pro5.png';
 import pro6 from '../assets/pro6.png';
 import owner from '../assets/owner.png';
+import sunny from '../assets/sunny.png';
 
 export default {
   bg,
@@ -64,4 +65,5 @@ export default {
   pro5,
   pro6,
   owner,
+  sunny,
 };

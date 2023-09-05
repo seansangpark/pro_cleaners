@@ -19,12 +19,6 @@ const AboutUs = () => (
           altering, we've got the skills to make your outfits shine with
           confidence!
         </p>
-        <button
-          type='button'
-          className='custom__button'
-        >
-          Know More
-        </button>
       </div>
 
       <div className='app__aboutus-content_clothes flex__center'>
@@ -43,12 +37,6 @@ const AboutUs = () => (
           those nitty-gritty clothing details. Our story is packed with happy
           customers who've experienced the Pro Cleaners magic.
         </p>
-        <button
-          type='button'
-          className='custom__button'
-        >
-          Know More
-        </button>
       </div>
     </div>
   </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SubHeading } from '../../components';
+import { SubHeading, Button } from '../../components';
 import images from '../../constants/images';
 import './Header.css';
 
@@ -20,12 +20,7 @@ const Header = () => (
         everyday clothes into works of art through our impeccable cleaning and
         alteration services.
       </p>
-      <button
-        type='button'
-        className='custom__button'
-      >
-        Visit Us
-      </button>
+      <Button />
     </div>
 
     <div className='app__wrapper_img'>

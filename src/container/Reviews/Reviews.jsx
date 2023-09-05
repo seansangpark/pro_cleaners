@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 
-import { SubHeading } from '../../components';
+import { SubHeading, Button } from '../../components';
 import { data } from '../../constants';
 import './Reviews.css';
 
@@ -34,12 +34,7 @@ const Reviews = () => {
           Cleaners. They can attest that we provide the best service in
           Pineville and Charlotte area!
         </p>
-        <button
-          type='button'
-          className='custom__button'
-        >
-          View More
-        </button>
+        <Button />
       </div>
       <div className='app__gallery-images'>
         <div

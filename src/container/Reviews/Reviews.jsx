@@ -1,12 +1,8 @@
 import React from 'react';
-import {
-  BsInstagram,
-  BsArrowLeftShort,
-  BsArrowRightShort,
-} from 'react-icons/bs';
+import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 
 import { SubHeading } from '../../components';
-import { images, data } from '../../constants';
+import { data } from '../../constants';
 import './Reviews.css';
 
 const Reviews = () => {
@@ -23,7 +19,10 @@ const Reviews = () => {
   };
 
   return (
-    <div className='app__gallery flex__center'>
+    <div
+      className='app__gallery flex__center'
+      id='reviews'
+    >
       <div className='app__gallery-content'>
         <SubHeading title='Google Reviews' />
         <h1 className='headtext__cormorant'>From actual customers</h1>

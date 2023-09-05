@@ -2,10 +2,10 @@ import bg from '../assets/bg.png';
 import bg2 from '../assets/bg2.png';
 import chef from '../assets/chef.png';
 import G from '../assets/G.png';
-import gallery01 from '../assets/gallery01.png';
-import gallery02 from '../assets/gallery02.png';
-import gallery03 from '../assets/gallery03.png';
-import gallery04 from '../assets/gallery04.png';
+import review01 from '../assets/review01.png';
+import review02 from '../assets/review02.png';
+import review03 from '../assets/review03.png';
+import review04 from '../assets/review04.png';
 import logo from '../assets/logo.png';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
@@ -36,10 +36,10 @@ export default {
   bg2,
   chef,
   G,
-  gallery01,
-  gallery02,
-  gallery03,
-  gallery04,
+  review01,
+  review02,
+  review03,
+  review04,
   logo,
   overlaybg,
   spoon,

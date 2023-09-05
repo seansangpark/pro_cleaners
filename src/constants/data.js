@@ -206,6 +206,36 @@ const repairs = [
   },
 ];
 
+const customer_reviews = [
+  {
+    author: 'Ritz L',
+    author_detail: 'Local Guide | 71 reviews',
+    stars: 5,
+    review:
+      "A good small business that the owners work at and even staff the counter. Cleaning and alterations are top notch and pricing is reasonable. They say if you find a good cleaner and alterations place, you should keep it... well, this is my keeper (and right next to Sammy's bar and nail salon).",
+  },
+  {
+    author: 'Sang Park',
+    author_detail: 'Local Guide | 27 reviews',
+    stars: 5,
+    review: 'Excellent Service! Best one in town.',
+  },
+  {
+    author: 'Reginald Allen',
+    author_detail: 'Local Guide | 25 reviews',
+    stars: 5,
+    review:
+      'The staff is very friendly, courteous & professional. They fixed my buttonless shorts immediately at no charge. This is definitely a business that thinks long term and I will be taking all my dry cleaning here going forward!',
+  },
+  {
+    author: 'Catherine Martin',
+    author_detail: 'Local Guide | 7 reviews',
+    stars: 5,
+    review:
+      'We love this place! They do stellar work and are always so kind. Highly recommend!',
+  },
+];
+
 const awards = [
   {
     imgUrl: images.award02,
@@ -229,4 +259,4 @@ const awards = [
   },
 ];
 
-export default { dry_cleanings, repairs, awards };
+export default { dry_cleanings, repairs, awards, customer_reviews };

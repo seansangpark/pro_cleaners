@@ -48,14 +48,12 @@ const Reviews = () => {
           ref={scrollRef}
         >
           {data.customer_reviews.map((review, index) => (
-            <div
-              className='app__gallery-images_card flex__center'
-              key={`gallery_images-${index + 1}`}
-            >
-              <h2>{review.author}</h2>
-              <h3>{review.author_detail}</h3>
-              <p>{review.star}</p>
-              <p>{review.review}</p>
+            <div className='app__gallery-images_card'>
+              <SubHeading title={review.author_detail} />
+              <h1 className='headtext2__cormorant'>{review.author}</h1>
+              <p>⭐️ ⭐️ ⭐️ ⭐️ ⭐️</p>
+              <br />
+              <p className='p__opensans'>{review.review}</p>
             </div>
           ))}
         </div>

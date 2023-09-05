@@ -97,6 +97,15 @@
   text-transform: capitalize;
 }
 
+.headtext2__cormorant {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 34px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
 .spoon__img {
   width: 45px;
 }
@@ -116,6 +125,11 @@
   .headtext__cormorant {
     font-size: 150px;
     line-height: 210px;
+  }
+
+  .headtext2__cormorant {
+    font-size: 75px;
+    line-height: 105px;
   }
 
   .spoon__img {
@@ -173,5 +187,10 @@
   .headtext__cormorant {
     font-size: 45px;
     line-height: 70px;
+  }
+
+  .headtext__cormorant {
+    font-size: 22.5px;
+    line-height: 35px;
   }
 }

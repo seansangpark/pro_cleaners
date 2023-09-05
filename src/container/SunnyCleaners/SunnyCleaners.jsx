@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SubHeading, PhoneNumberLink, Button } from '../../components';
+import { SubHeading, PhoneNumberLink } from '../../components';
 import { images } from '../../constants';
 
 const SunnyCleaners = () => {

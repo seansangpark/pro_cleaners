@@ -1,6 +1,6 @@
 # Pro Cleaners Landing Page
 
-![Pro Cleaners Logo](./src/assets/logo.png)
+![Pro Cleaners Logo](./src/assets/pro.png)
 
 Welcome to the Pro Cleaners landing page repository! This landing page showcases our professional cleaning services in Pineville, North Carolina. The page is built using React functional components, focusing on reusability and making use of fundamental CSS properties such as Flex and Grid. It also includes soft and pleasant animations and complex gradients to create an engaging user experience.
 

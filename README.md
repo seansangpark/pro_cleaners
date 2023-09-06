@@ -2,7 +2,7 @@
 
 ![Pro Cleaners Logo](./src/assets/pro.png)
 
-Welcome to the Pro Cleaners landing page repository! This landing page showcases our professional cleaning services in Pineville, North Carolina. The page is built using React functional components, focusing on reusability and making use of fundamental CSS properties such as Flex and Grid. It also includes soft and pleasant animations and complex gradients to create an engaging user experience.
+Welcome to the Pro Cleaners landing page repository! This landing page showcases our professional dry cleaning services in Pineville, North Carolina. The page is built using React functional components, focusing on reusability and using fundamental CSS properties such as Flex and Grid. It also includes soft, pleasant animations and complex gradients to create an engaging user experience.
 
 ## Demo
 
@@ -10,7 +10,7 @@ You can visit the live website here: [Pro Cleaners Landing Page](https://prodryc
 
 ## Technologies Used
 
-- **React**: The page is built using React for a modular and maintainable structure.
+- **React**: The page uses React for a modular and maintainable structure.
 - **CSS**: Fundamental CSS properties such as Flex and Grid are utilized for responsive design and layout.
 - **Animations**: Soft and pleasant animations are included to enhance the user experience.
 - **Gradients**: Complex gradients are used for a visually appealing design.
@@ -47,3 +47,18 @@ To run this project locally, follow these steps:
    npm start
 
 5. Open your web browser and visit `http://localhost:3000` to see the landing page in action.
+
+## Contributing
+
+I welcome contributions! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository to your GitHub account
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear commit messages.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository.
+
+## Contact
+If you have any questions or need further assistance, feel free to contact me at seansangpark@gmail.com.
+
+Thank you for visiting my Pro Cleaners landing page repository!
